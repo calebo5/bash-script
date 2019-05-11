@@ -61,12 +61,13 @@ sudo apt install -y aptitude
 sudo apt install -y tasksel
 sudo apt install -y mc
 #
-# Install X Apps
+# Install X Apps, numlockx
 sudo apt install -y x11-apps
 sudo apt install -y x11-utils
 sudo apt install -y x11-xserver-utils
 sudo apt install -y x11vnc
 sudo apt install -y xapps-common
+sudo apt install -y numlockx
 #
 # Install xed
 sudo apt install -y xed
