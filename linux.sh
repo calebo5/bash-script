@@ -59,6 +59,7 @@ sudo apt install -y x11-apps
 sudo apt install -y x11-utils
 sudo apt install -y x11-xserver-utils
 sudo apt install -y x11vnc
+sudo apt install -y xapps-common
 #
 # Install xed
 sudo apt install -y xed
