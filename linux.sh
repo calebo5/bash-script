@@ -40,6 +40,10 @@ sudo apt install -y curl
 sudo apt install -y apt
 sudo apt install -y dpkg
 #
+# Install OpenSSH Server, OpenSSH Client
+sudo apt install -y openssh-server
+sudo apt install -y openssh-client
+#
 # Install exFAT
 sudo apt install -y exfat-fuse
 sudo apt install -y exfat-utils
