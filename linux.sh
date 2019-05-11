@@ -51,6 +51,12 @@ sudo apt install -y aptitude
 sudo apt install -y tasksel
 sudo apt install -y mc
 #
+# Install X Apps
+sudo apt install -y x11-apps
+sudo apt install -y x11-utils
+sudo apt install -y x11-xserver-utils
+sudo apt install -y x11vnc
+#
 # Install xed
 sudo apt install -y xed
 sudo apt install -y xed-common
