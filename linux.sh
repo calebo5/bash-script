@@ -66,6 +66,9 @@ sudo apt install -y bleachbit
 sudo apt install -y brasero
 sudo apt install -y youtube-dl
 #
+# Install Pidgin
+sudo apt install -y pidgin
+#
 # Install Spotify
 sudo apt install -y spotify-client
 #
