@@ -51,6 +51,12 @@ sudo apt install -y aptitude
 sudo apt install -y tasksel
 sudo apt install -y mc
 #
+# Install xed
+sudo apt install -y xed
+sudo apt install -y xed-common
+sudo apt install -y xed-doc
+sudo apt install -y dbg
+#
 # Install Firefox, Thunderbird
 sudo apt install -y firefox
 sudo apt install -y thunderbird
@@ -66,8 +72,9 @@ sudo apt install -y bleachbit
 sudo apt install -y brasero
 sudo apt install -y youtube-dl
 #
-# Install Pidgin
+# Install Pidgin, Telegram Desktop
 sudo apt install -y pidgin
+sudo apt install -y telegram-desktop
 #
 # Install Spotify
 sudo apt install -y spotify-client
