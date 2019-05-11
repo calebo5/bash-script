@@ -89,12 +89,29 @@ sudo apt install -y telegram-desktop
 # Install Spotify
 sudo apt install -y spotify-client
 #
-# Install gparted, transmission
+# Install gparted
 sudo apt install -y gparted
-sudo apt install -y transmission
 #
-# Install Ubuntu Restricted Extras
+# Install Transmission
+sudo apt install -y transmission
+sudo apt install -y transmission-cli
+sudo apt install -y transmission-common
+sudo apt install -y transmission-daemon
+sudo apt install -y transmission-gtk
+sudo apt install -y transmission-qt
+sudo apt install -y transmission-remote
+sudo apt install -y transmission-remote-cli
+sudo apt install -y transmission-remote-gtk
+#
+# Install Virtualbox
+sudo apt install -y virtualbox
+sudo apt install -y virtualbox-ext-pack
+sudo apt install -y virtualbox-guest-additions-iso
+sudo apt install -y virtualbox-qt
+#
+# Install Ubuntu Restricted Extras, Ubuntu Drivers Common
 #sudo apt install -y ubuntu-restricted-extras
+#sudo apt install -y ubuntu-drivers-common
 #
 # Install Steam
 sudo apt install -y steam
