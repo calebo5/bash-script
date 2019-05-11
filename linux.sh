@@ -13,6 +13,9 @@ sudo add-apt-repository -y ppa:lutris-team/lutris
 # Add Wine (Ubuntu 18.04.X/Linux Mint 19.X)
 sudo apt-add-repository -y 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main'
 #
+# Add Wine Builds
+sudo add-apt-repository -y ppa:wine/wine-builds
+#
 # Add Spotify Key
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90
 #
