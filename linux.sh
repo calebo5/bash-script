@@ -86,9 +86,8 @@ sudo apt install -y neofetch
 sudo apt install -y terminator
 sudo apt install -y gufw
 #
-# Install Lutris, PlayOnLinux
+# Install Lutris
 sudo apt install -y lutris
-sudo apt install -y playonlinux
 #
 # Enable 32-Bit Architecture
 sudo dpkg --add-architecture i386
