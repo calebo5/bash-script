@@ -22,6 +22,9 @@ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79
 # Add Spotify Repository
 sudo apt-add-repository -y 'deb http://repository.spotify.com stable non-free'
 #
+# Add OBS Repository
+sudo add-apt-repository -y ppa:obsproject/obs-studio
+#
 # Update, Upgrade Packages
 sudo apt update -y
 sudo apt upgrade -y
@@ -126,6 +129,10 @@ sudo apt install -y steam-devices
 sudo apt install -y neofetch
 sudo apt install -y terminator
 sudo apt install -y gufw
+#
+# Install FFmpeg, OBS Studio
+sudo apt install -y ffmpeg
+sudo apt install -y obs-studio
 #
 # Install Lutris
 sudo apt install -y lutris
