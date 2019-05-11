@@ -70,9 +70,6 @@ sudo apt install -y telegram-desktop
 sudo apt install -y hexchat
 sudo apt install -y hexchat-common
 #
-# Install Spotify
-sudo apt install -y spotify-client
-#
 # Install gparted, dconf-editor
 sudo apt install -y gparted
 sudo apt install -y dconf-editor
@@ -107,34 +104,6 @@ sudo apt install -y steam-devices
 sudo apt install -y neofetch
 sudo apt install -y terminator
 sudo apt install -y gufw
-#
-# Install FFmpeg, OBS Studio
-sudo apt install -y ffmpeg
-sudo apt install -y obs-studio
-#
-# Install Lutris
-sudo apt install -y lutris
-#
-# Enable 32-Bit Architecture
-sudo dpkg --add-architecture i386
-#
-# Install Nvidia Driver 4.18
-sudo apt install -y nvidia-driver-418
-#
-# Install Vulkan
-sudo apt install -y libvulkan1 libvulkan1:i386
-#
-# Add Wine Key
-wget -nc https://dl.winehq.org/wine-builds/winehq.key
-sudo apt-key add winehq.key
-#
-# Install Additional Packages for Wine
-#sudo apt install -y libgnutls30:i386 libldap-2.4-2:i386 libgpg-error0:i386 libxml2:i386 libasound2-plugins:i386 libsdl2-2.0-0:i386 libfreetype6:i386 libdbus-1-3:i386 libsqlite3-0:i386
-#
-# Install OpenRazer, Polychromatic
-sudo apt install -y openrazer-meta
-sudo gpasswd -a calebwolf plugdev
-sudo apt install -y polychromatic
 #
 # Update, Upgrade Packages
 sudo apt update -y
