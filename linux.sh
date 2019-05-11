@@ -1,8 +1,8 @@
 #!/bin/bash
 #
 # Add OpenRazer, Polychromatic
-sudo add-apt-repository -y ppa:openrazer/stable
-sudo add-apt-repository -y ppa:polychromatic/stable
+#sudo add-apt-repository -y ppa:openrazer/stable
+#sudo add-apt-repository -y ppa:polychromatic/stable
 #
 # Add Graphics Drivers
 sudo add-apt-repository -y ppa:graphics-drivers/ppa
@@ -14,13 +14,7 @@ sudo add-apt-repository -y ppa:lutris-team/lutris
 sudo apt-add-repository -y 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main'
 #
 # Add Wine Builds
-sudo add-apt-repository -y ppa:wine/wine-builds
-#
-# Add Spotify Key
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90
-#
-# Add Spotify Repository
-sudo apt-add-repository -y 'deb http://repository.spotify.com stable non-free'
+#sudo add-apt-repository -y ppa:wine/wine-builds
 #
 # Add OBS Repository
 sudo add-apt-repository -y ppa:obsproject/obs-studio
