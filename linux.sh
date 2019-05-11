@@ -31,10 +31,11 @@ sudo apt install -y bash
 sudo apt install -y bash-doc
 sudo apt install -y bash-completion
 #
-# Install wget, curl, apt
+# Install wget, curl, apt, dpkg
 sudo apt install -y wget
 sudo apt install -y curl
 sudo apt install -y apt
+sudo apt install -y dpkg
 #
 # Install exFAT
 sudo apt install -y exfat-fuse
@@ -54,11 +55,10 @@ sudo apt install -y mc
 sudo apt install -y firefox
 sudo apt install -y thunderbird
 #
-# Install VLC, GDebi, Synaptic, dpkg
+# Install VLC, GDebi, Synaptic
 sudo apt install -y vlc
 sudo apt install -y gdebi
 sudo apt install -y synaptic
-sudo apt install -y dpkg
 #
 # Install Bleachbit, Brasero, youtube-dl
 sudo apt install -y bleachbit
