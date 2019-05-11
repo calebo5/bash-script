@@ -1,24 +1,5 @@
 #!/bin/bash
 #
-# Add OpenRazer, Polychromatic
-#sudo add-apt-repository -y ppa:openrazer/stable
-#sudo add-apt-repository -y ppa:polychromatic/stable
-#
-# Add Graphics Drivers
-sudo add-apt-repository -y ppa:graphics-drivers/ppa
-#
-# Add Lutris
-sudo add-apt-repository -y ppa:lutris-team/lutris
-#
-# Add Wine (Ubuntu 18.04.X/Linux Mint 19.X)
-sudo apt-add-repository -y 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main'
-#
-# Add Wine Builds
-#sudo add-apt-repository -y ppa:wine/wine-builds
-#
-# Add OBS Repository
-sudo add-apt-repository -y ppa:obsproject/obs-studio
-#
 # Update, Upgrade Packages
 sudo apt update -y
 sudo apt upgrade -y
