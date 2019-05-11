@@ -48,7 +48,6 @@ sudo apt install -y numlockx
 sudo apt install -y xed
 sudo apt install -y xed-common
 sudo apt install -y xed-doc
-sudo apt install -y dbg
 #
 # Install Firefox, Thunderbird
 sudo apt install -y firefox
