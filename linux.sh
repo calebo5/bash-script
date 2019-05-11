@@ -90,15 +90,18 @@ sudo apt install -y bleachbit
 sudo apt install -y brasero
 sudo apt install -y youtube-dl
 #
-# Install Pidgin, Telegram Desktop
+# Install Pidgin, Telegram Desktop, HexChat
 sudo apt install -y pidgin
 sudo apt install -y telegram-desktop
+sudo apt install -y hexchat
+sudo apt install -y hexchat-common
 #
 # Install Spotify
 sudo apt install -y spotify-client
 #
-# Install gparted
+# Install gparted, dconf-editor
 sudo apt install -y gparted
+sudo apt install -y dconf-editor
 #
 # Install Transmission
 sudo apt install -y transmission
