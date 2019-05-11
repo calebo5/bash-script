@@ -55,10 +55,11 @@ sudo apt install -y mc
 sudo apt install -y firefox
 sudo apt install -y thunderbird
 #
-# Install VLC, GDebi, Synaptic
+# Install VLC, GDebi, Synaptic, nano
 sudo apt install -y vlc
 sudo apt install -y gdebi
 sudo apt install -y synaptic
+sudo apt install -y nano
 #
 # Install Bleachbit, Brasero, youtube-dl
 sudo apt install -y bleachbit
@@ -67,9 +68,6 @@ sudo apt install -y youtube-dl
 #
 # Install Spotify
 sudo apt install -y spotify-client
-#
-# Install nano
-sudo apt install -y nano
 #
 # Install gparted, transmission
 sudo apt install -y gparted
